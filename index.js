@@ -66,7 +66,7 @@ highscores.forEach(function(highscore){
   }
 })
 if(currHighScore != 0){
-  console.log("\nWofoo!\n");
+  console.log("\nWofoo!!\n");
    highscores.push({name: userName.toString(), score: currentScore.toString()});
 }
 sortScores();
