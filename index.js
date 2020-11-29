@@ -15,7 +15,7 @@ var listOfQuestions = [{
   correctAnswer: 'mountains'
 },
 {
-  question: "My fav food item?",
+  question: "My fav dish?",
   correctAnswer: 'pasta'
 },
 {
@@ -66,7 +66,7 @@ highscores.forEach(function(highscore){
   }
 })
 if(currHighScore != 0){
-  console.log("\nWofoo!!\n");
+  console.log("\nYour final score: "+currentScore+"\n");
    highscores.push({name: userName.toString(), score: currentScore.toString()});
 }
 sortScores();
@@ -78,7 +78,6 @@ function sortScores() {
     console.log(highscore.name+" with score "+highscore.score+"\n");
   })
 
-   
 
 
 
