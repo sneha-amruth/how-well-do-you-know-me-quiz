@@ -35,10 +35,6 @@ var highscores = [
     score: 1
   },
   {
-    name: "Deepa",
-    score: 6
-  },
-  {
     name: "Kyathi",
     score: 3
   },
