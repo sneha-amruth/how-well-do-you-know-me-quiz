@@ -3,7 +3,7 @@ const chalk = require('chalk');
 
 var userName = readlinesync.question(chalk.white.bgBlue.bold("Welcome, Please enter your name "));
 
-console.log(chalk.white.bgBlue.bold("\n"+userName+", let's see how well do you know Sneha\n"));
+console.log(chalk.white.bgBlue.bold("\n"+userName+", let's see how well you know Sneha\n"));
 
 
 var listOfQuestions = [{
